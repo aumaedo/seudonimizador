@@ -44,4 +44,4 @@ def process_files(files):
                     if name not in pseudonym_table:
                         pseudonym_table[name] = generate_pseudonym(name)
         elif file.name.endswith(".pdf"):
-            reader = Pd
+            reader = pd
